@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hyperand Notation</title>
+<link rel="stylesheet" href="main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Hyperand Notation</h1>
+Back to main page: <a href="https://soragaku-m.github.io/main-page/">Here</a>
+<hr>
+<div>Hyperand notation is a notation I made around 2 years ago by myself. I was really different from my classmates. They, were interested in just doing trends, brainrot, whatever... I was interested in googology. Whenever I was bored in class, I'd spend some time doing googology. Little by little, I started to form a notation. Eventually, I made it far into the realm of large numbers, but I had no way of publishing it. I didn't have access to coding tools back then. I had no idea how to code back then. But now, I have those, and now, I can finally show my creation to the world.</div>
+<hr>
+<div>Here, I'll try to explain how it works. Here's an example of a valid Hyperand Notation: </div>
+<p><h2> (25) <span class="A5">3A<sup>5</sup></span> <span class="A4">2A<sup>4</sup></span> <span class="A2">5A<sup>2</sup></span> <span class="A1">9A</span> 55 </h2></p>
+<div>Here, the (25) is the base, the 3A<sup>5</sup> 2A<sup>4</sup> 5A<sup>2</sup> <span class="A1">9A</span> are the hyperands, and 55 is the mantissa. These are the 3 parts of a valid Hyperand Notation, although the base can be discarded. If there is no base displayed, it is automatically 10. Now let's define the notation. We'll use the variable b for "base" and n for "mantissa". The simplest hyperand is "<span class="A1">A</span>" and it is defined like this:</div>
+<p><h2>(b) <span class="A1">A</span> n = b<sup>n</sup></h2></p>
+Examples: <br>
+<span class="A1">A</span> 3 = 10<sup>3</sup> = 1,000 <br>
+<span class="A1">A</span> 5 = 10<sup>5</sup> = 100,000 <br>
+(27) <span class="A1">A</span> 4 = 27<sup>4</sup> = 531441 <br>
+(37) <span class="A1">A</span> 5 = 37<sup>5</sup> = 6.934e7 <br>
+(15) <span class="A1">A</span> 10 = 15<sup>10</sup> = 5.766e11 <br><br>
+<div>These numbers are huge! Now you might be wondering if we can stack the <span class="A1">A</span> hyperand. You might think it would go like (b) <span class="A1">A</span> <span class="A1">A</span> n but actually that's invalid. Hyperands should be in descending order. The proper way is <span class="A1">2A</span>. Here's how 2A is defined:</div>
+<p><h2>(b) <span class="A1">2A</span> n = (b) <span class="A1">A</span> b<sup>n</sup></h2></p>
+Examples: <br>
+<span class="A1">2A</span> 2 = <span class="A1">A</span> 10<sup>2</sup> = 1e100 <br>
+<span class="A1">2A</span> 4 = <span class="A1">A</span> 10<sup>4</sup> = 1e10,000 <br>
+(3) <span class="A1">2A</span> 15 = (3) <span class="A1">A</span> 3<sup>15</sup> = 3.248e6,846,168 <br>
+(8) <span class="A1">2A</span> 16 = (8) <span class="A1">A</span> 8<sup>16</sup> = ee14.405 <br>
+(12) <span class="A1">2A</span> 128 = (12) <span class="A1">A</span> 12<sup>128</sup> = ee138.168 <br><br>
+<div>These numbers are astronomical! Take the 1st example, that number is about 100,000,000,000,000,000,000x bigger than the amount of atoms in the observable universe! If each universe was also an atom, then the 2nd number is equivalent to the amount of atoms in the 125th level universe. The third being the 85,571st level universe, and the fourth and the fifth having levels very large. Now you might be able to guess how <span class="A1">3A</span> is defined. (b) <span class="A1">3A</span> n = (b) <span class="A1">2A</span> b<sup>n</sup>, and <span class="A1">4A</span> is defined like this: (b) <span class="A1">4A</span> n = (b) <span class="A1">3A</span> b<sup>n</sup>, and <span class="A1">5A</span> is defined like this: (b) <span class="A1">5A</span> n = (b) <span class="A1">4A</span> b<sup>n</sup>, then <span class="A1">6A</span>, <span class="A1">7A</span>, <span class="A1">8A</span>, and so on... The general rule is:</div>
+<p><h2>(b) <span class="A1">(m+1)A</span> n = <span class="A1"> mA</span> b<sup>n</sup></h2></p>
+<div> Note: <span class="A1">0A</span> is always discarded.</div>
+Example:<br>
+(37) <span class="A1">25A</span> 40 = (37) <span class="A1">24A</span> 37<sup>40</sup> = ... = <ul>
+<li> <a href="https://googology.fandom.com/wiki/Hyper-E_notation">Hyper-E notation</a>: E62.923#24 </li>
+<li> <a href="https://googology.fandom.com/wiki/User_blog:PsiCubed2/My_Letter_Notation">PsiCubed2 letter notation</a>: F25.254 </li>
+<li> <a href="https://googology.fandom.com/wiki/Bowers%27_Exploding_Array_Function">BEAF</a>/<a href="https://googology.fandom.com/wiki/Bird%27s_array_notation">BAN</a>: [39, 25, 2] </li>
+<li> <a href="https://en.wikipedia.org/wiki/Knuth%27s_up-arrow_notation">Arrow notation</a>: 10^^25 </li>
+<li> <a href="https://googology.fandom.com/wiki/Fast-growing_hierarchy">FGH</a>: f<sub>3</sub>(24) </li>
+
+</ul>
+<div>This number is tetrational level! Let's move on to the next hyperand level: <span class="A2">A<sup>2</sup></span>. It is defined like this:
+<p><h2> (b) <span class="A2">A<sup>2</sup></span> n = (b) <span class="A1">nA</span> 1</h2></p>
+Examples:<br>
+<span class="A2">A<sup>2</sup></span> 50 = <span class="A1">50A</span> 1 = <ul>
+<li> Hyper-E notation: E10#49 </li>
+<li> PsiCubed2 letter notation: F50 </li>
+<li> BEAF/BAN: [10, 50, 2] </li>
+<li> Arrow notation: 10^^50 </li>
+<li> FGH: f<sub>3</sub>(48) </li>
+</ul>
+ (20) <span class="A2">A<sup>2</sup></span> 70 = (20) <span class="A1">70A</span> 1 = <ul>
+<li> Hyper-E notation: E26.134#69 </li>
+<li> PsiCubed2 letter notation: F70.151 </li>
+<li> BEAF/BAN: [20, 70, 2] </li>
+<li> Arrow notation: 10^^70 </li>
+<li> FGH: f<sub>3</sub>(69) </li>
+</ul>
+(100) <span class="A2">A<sup>2</sup></span> 100 = (100) <span class="A1">100A</span> 1 = <ul>
+<li> Hyper-E notation: E200.301#99 </li>
+<li> PsiCubed2 letter notation: F100.362 </li>
+<li> BEAF/BAN: [100, 100, 2] </li>
+<li> Arrow notation: 10^^100 </li>
+<li> FGH: f<sub>3</sub>(99) </li>
+</ul>
+<div>You can also use both <span class="A2">A<sup>2</sup></span> and <span class="A1">A</span> at once.</div><br>
+(5) <span class="A2">A<sup>2</sup></span> <span class="A1">3A</span> 2 = <ul>
+<li> Hyper-E notation: E17.318#2#2 </li>
+<li> PsiCubed2 letter notation: Fee17.318 </li>
+<li> BEAF/BAN: [4, 3, 3] </li>
+<li> Arrow notation: 10^^ 10^10^17 </li>
+<li> FGH: f<sub>3</sub>(f<sub>2</sub>(f<sub>2</sub>(53))) </li>
+</ul>
+<div>You can also use have multiple <span class="A2">A<sup>2</sup></span> like this:</div><br>
+(6) <span class="A2">4A<sup>2</sup></span> 2 = <ul>
+<li> Hyper-E notation: E46655.658#1#3 </li>
+<li> PsiCubed2 letter notation: FFF46655.658 </li>
+<li> BEAF/BAN: [46655, 4, 4] </li>
+<li> Arrow notation: 10^^10^^10^^46655 </li>
+<li> FGH: f<sub>3</sub>(f<sub>3</sub>(f<sub>3</sub>(f<sub>2</sub>(11)))) </li>
+</ul>
+<div>The next level is <span class="A3">A<sup>3</sup></span>. It's defined like this:</div>
+<p><h2> (b) <span class="A3">A<sup>3</sup></span> n = (b) <span class="A2">nA<sup>2</sup></span> 1</h2></p>
+<div>Like the previous levels, you can have multiple amounts of <span class="A3">A<sup>3</sup></span>, and you can combine it with the lower level hyperand, as long as you put them in decreasing order.</div>
+Example: <br>
+<span class="A3">15A<sup>3</sup></span> <span class="A2">3A<sup>2</sup></span> <span class="A1">8A</span> 9 = <ul>
+<li> Hyper-E notation: E9#8#4#16 </li>
+<li> PsiCubed2 letter notation: H15.596 </li>
+<li> BEAF/BAN: [4, 16, 4] </li>
+<li> Arrow notation: 10^^^^15 </li>
+<li> FGH: f<sub>5</sub>(14) </li>
+</ul>
+<div>If you have noticed, <span class="A1">A</span> is exponential level, <span class="A2">A<sup>2</sup></span> is tetrational level and <span class="A3">A<sup>3</sup></span> is pentational level. The higher the hyperand level, the higher the growth level. You can probably guess what the next hyperand level is: <span class="A4">A<sup>4</sup></span>, and it's definition is (b) <span class="A4">A<sup>4</sup></span> = (b) <span class="A3">nA<sup>3</sup></span> 1. We can generalize this to this rule:</div>
+<p><h2> (b) <span class="Aw">A<sup>m</sup></span> n = (b) <span class="A1">nA<sup>m-1</sup></span> 1</h2></p>
+<div>Note: any hyperand with amount 0 should be discarded</div>
+<hr>
+<h1>Decimalization</h1>
+<div>Currently, Hyperand notation can only have an integer mantissa, which is absolutely diabolical. So, let's fix it. The <span class="A1">A</span> hyperand has no problems with decimals, so let's move on to the higher level hyperands. When the mantissa is not an integer, then this applies:
+<p><h2> (b) <span class="Aw">A<sup>m</sup></span> n = (b) <span class="A1">floor(n)A<sup>m-1</sup></span> b<sup>mod(n,1)</h2></p>
+<div>Great! Now there's nothing diabolical with my notation. Now, I will show you the formal definition of hyperand notation.</div> <ul>
+<li># represents the remainder hyperands. b, n, m, and o can mean any positive integer. A hyperand is in the form mA<sup>n</sup>. A is a shorthand for A<sup>1</sup></li>
+<li>Rule 1: (b) # 0A<sup>n</sup> o = (b) # o</li>
+<li>Rule 2: (b) # mA o = (b) # (m-1)A b<sup>o</sup></li>
+<li>Rule 3: (b) # mA<sup>n</sup> o = (b) # (m-1)A<sup>n</sup> oA<sup>n</sup> 1</li>
+</ul>
+<div>That's all to the definition of Hyperand Notation for now. Thank you for reading! But before I end this page, I'll convert some googolisms to Hyperand Notation.</div><ul>
+<li> Googol - <span class="A1">A</span> 100 </li>
+<li> Faxul - <span class="A1">A</span> 374.896 </li>
+<li> Trialouge - <span class="A1">2A</span> 10 </li>
+<li> Googolplex - <span class="A1">2A</span> 100 </li>
+<li> First Skewes Number - <span class="A1">3A</span> 33.947 </li>
+<li> Decker - <span class="A1">9A</span> 10 </li>
+<li> Expofaxul - <span class="A1">196A</span> 183230.683 </li>
+<li> Tritri - <span class="A2">A<sup>2</sup></span> <span class="A1">A</span> 12.882 </li>
+<li> Tetra-taxis - <span class="A2">3A<sup>2</sup></span> 10 </li>
+<li> Tritet - <span class="A3">3A<sup>3</sup></span> <span class="A2">3A<sup>2</sup></span> <span class="A1">2A</span> 153.906 </li>
+<li> Tripent - <span class="A4">4A<sup>4</sup></span> <span class="A3">4A<sup>3</sup></span> <span class="A2">4A<sup>2</sup></span> <span class="A1">3A</span> 2184.125 </li>
+<li> Tridecal - <span class="A9">9A<sup>9</sup></span> 10 </li>
+<li> Gugold - <span class="A99">99A<sup>99</sup></span> <span class="A98">99A<sup>98</sup></span> <span class="A97">99A<sup>97</sup></span> <span class="A96">99A<sup>96</sup></span> <span class="A95">99A<sup>95</sup></span> 101 </li>
+<li> Hyperfaxul - <span class="A201">197A<sup>201</sup></span> <span class="A198">2A<sup>198</sup></span> <span class="A197">2A<sup>197</sup></span> <span class="A196">2A<sup>196</sup></span> <span class="A195">2A<sup>195</sup></span> 2.375 </li>
+</ul>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
